@@ -1,0 +1,37 @@
+## How to Run
+### 1) Clone project
+```bash
+git clone <your-repo-url>
+cd Restaurant-Order
+2) Start MongoDB
+Make sure MongoDB is running locally (mongodb://127.0.0.1:27017).
+
+3) Run Backend
+cd Backend
+npm install
+npm run dev
+Backend runs on: http://localhost:5000
+
+4) Run Frontend
+Open a new terminal:
+
+cd Frontend
+npm install
+npm run dev
+Frontend runs on: http://localhost:5173
+
+5) Login
+Open: http://localhost:5173/auth
+
+Demo users:
+
+waiter1 / 123456
+kitchen1 / 123456
+manager1 / 123456
+owner1 / 123456
+Tech Stack
+Frontend: React, Vite, Tailwind CSS
+Backend: Node.js, Express
+Database: MongoDB, Mongoose
+Real-time: Socket.io
+Auth: JWT + Role-based access
